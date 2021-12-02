@@ -94,4 +94,4 @@ def run(weights_dir='output', temperature=1.0, k=400, p=0.9, repetition_penalty=
         num_beams = None, no_repeat_ngram_size = 0
     )
     
-    print('\n'.join(res))
+    return res
